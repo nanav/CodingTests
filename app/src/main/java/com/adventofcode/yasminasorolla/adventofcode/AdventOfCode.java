@@ -1,14 +1,13 @@
 package com.adventofcode.yasminasorolla.adventofcode;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import com.adventofcode.yasminasorolla.adventofcode.ex1.Exercise1;
 import com.jakewharton.rxbinding.view.RxView;
-
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

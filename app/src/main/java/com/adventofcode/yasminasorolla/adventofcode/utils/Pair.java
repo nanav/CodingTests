@@ -1,6 +1,5 @@
 package com.adventofcode.yasminasorolla.adventofcode.utils;
 
-
 public class Pair<S, T>
         implements Comparable<Pair<S, T>> {
 

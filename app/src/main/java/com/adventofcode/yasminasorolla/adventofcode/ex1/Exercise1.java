@@ -12,4 +12,5 @@ public class Exercise1 {
         return santa.getFinalFloor();
 
     }
+
 }

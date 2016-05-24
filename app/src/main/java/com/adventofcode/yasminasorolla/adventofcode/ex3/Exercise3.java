@@ -4,9 +4,6 @@ import com.adventofcode.yasminasorolla.adventofcode.utils.Pair;
 
 import java.util.HashSet;
 
-/**
- * Created by yasmina.sorolla on 23/05/2016.
- */
 public class Exercise3 {
 
     public static int calculateHousesWithPresent(String input) {
@@ -24,8 +21,8 @@ public class Exercise3 {
         String inputEven = "";
         String inputOdd  = "";
 
-        for(int i=0; i<input.length();i++) {
-            if(i%2==0)
+        for(int i=0; i<input.length(); i++) {
+            if(i%2 == 0)
                 inputEven= inputEven+input.charAt(i);
             else
                 inputOdd= inputOdd+input.charAt(i);
@@ -40,10 +37,8 @@ public class Exercise3 {
         calculatorOdd.calculate(inputOdd)
                 .subscribe(System.out::println);
 
-
         HashSet<Pair<Integer, Integer>> visitedHouses = calculatorEven.getVisitedHouses();
         visitedHouses.addAll(calculatorOdd.getVisitedHouses());
-
 
         return visitedHouses.size();
     }

@@ -2,10 +2,6 @@ package com.adventofcode.yasminasorolla.adventofcode.ex1;
 
 import rx.Observable;
 
-/**
- * Created by yasmina.sorolla on 23/05/2016.
- */
-
 class Santa {
 
     int stepsUp;

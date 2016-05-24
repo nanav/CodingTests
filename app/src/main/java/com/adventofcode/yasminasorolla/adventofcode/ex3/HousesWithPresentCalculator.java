@@ -6,9 +6,7 @@ import java.util.HashSet;
 
 import rx.Observable;
 
-/**
- * Created by yasmina.sorolla on 24/05/2016.
- */
+
 public class HousesWithPresentCalculator {
 
     public int numHouses = 1;;
@@ -30,7 +28,6 @@ public class HousesWithPresentCalculator {
                 .map(list -> list.size())
                 .map(numElements -> updateNumHouses(numElements))
                 ;
-
     }
 
     private HashSet<Pair<Integer,Integer>> nextHouse(String dir) {
